@@ -1,4 +1,4 @@
-```markdown
+
 # Python for Applied AI
 
 A collection of labs, exercises, and projects completed during the **Python for Applied AI** training program.
