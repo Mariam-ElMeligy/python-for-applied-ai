@@ -1,4 +1,3 @@
-
 # Python for Applied AI
 
 A collection of labs, exercises, and projects completed during the **Python for Applied AI** training program.
@@ -27,13 +26,17 @@ The course covers the following main areas:
 python-for-applied-ai/
 │
 ├── 01-python/
-│   └── lab-01-experiment-tracking/
-│       ├── Experiment.py
-│       ├── ClassificationExperiment.py
-│       ├── RetrievalExperiment.py
-│       ├── ExperimentDashboard.py
-│       ├── main.py
-│       └── README.md
+│   ├── lab-01-experiment-tracking/
+│   │   ├── Experiment.py
+│   │   ├── ClassificationExperiment.py
+│   │   ├── RetrievalExperiment.py
+│   │   ├── ExperimentDashboard.py
+│   │   └── main.py
+│   │   
+│   │
+│   └── lab-02-numpy/
+│       └── numpy_lab.ipynb
+│       
 │
 ├── 02-computer-vision/
 │   └── ...
@@ -55,7 +58,6 @@ python-for-applied-ai/
 │   └── ...
 │
 └── README.md
-
 ```
 
 *The repository will be updated throughout the training program as new topics, labs, and projects are completed.*
@@ -68,20 +70,37 @@ The Python section focuses on applying core Python programming concepts to AI-or
 
 ### Current Labs
 
-#### Experiment Tracking System
+#### Lab 01 — Experiment Tracking System
 
 An object-oriented experiment tracking system designed to organize, compare, and report AI experiment results.
 
 **Key concepts covered:**
 
-* Classes and objects
-* Encapsulation & Inheritance
-* Method overriding & Polymorphism
-* Class attributes & Alternative constructors
-* Decomposition / Composition
-* Object collections & Special methods (e.g., `__repr__`)
-* Exception handling
-* Basic experiment management
+- Classes and objects
+- Encapsulation & Inheritance
+- Method overriding & Polymorphism
+- Class attributes & Alternative constructors
+- Decomposition / Composition
+- Object collections & Special methods (e.g., `__repr__`)
+- Exception handling
+- Basic experiment management
+
+#### Lab 02 — NumPy
+
+A practical NumPy lab focused on working with numerical datasets and applying vectorized array operations.
+
+**Key concepts covered:**
+
+- NumPy arrays
+- Array properties: `shape`, `ndim`, `size`, and `dtype`
+- Vectorized operations
+- Indexing and slicing
+- Array reshaping
+- Flattening arrays
+- Aggregation and statistical operations
+- Filtering with Boolean conditions
+- Vertical and horizontal stacking
+- Adding rows and columns to datasets
 
 ---
 
@@ -91,9 +110,9 @@ Topics related to computer vision and the use of pretrained models for image-bas
 
 **Planned topics include:**
 
-* Computer vision fundamentals
-* Pretrained models
-* Applying pretrained models to vision tasks
+- Computer vision fundamentals
+- Pretrained models
+- Applying pretrained models to vision tasks
 
 ---
 
@@ -103,10 +122,10 @@ Exploration of YOLO-based object detection and practical computer vision applica
 
 **Topics include:**
 
-* Object detection principles
-* YOLO architecture & deployment
-* Detection pipelines
-* Computer vision applications
+- Object detection principles
+- YOLO architecture & deployment
+- Detection pipelines
+- Computer vision applications
 
 ---
 
@@ -116,9 +135,9 @@ Introduction to NLP concepts and their practical applications.
 
 **Topics include:**
 
-* NLP fundamentals
-* Text processing techniques
-* Practical NLP applications
+- NLP fundamentals
+- Text processing techniques
+- Practical NLP applications
 
 ---
 
@@ -128,9 +147,9 @@ Introduction to large language models and generative AI systems.
 
 **Topics include:**
 
-* LLM fundamentals
-* Generative AI architectures
-* Applications of LLMs
+- LLM fundamentals
+- Generative AI architectures
+- Applications of LLMs
 
 ---
 
@@ -140,9 +159,9 @@ Introduction to the fundamentals of RAG systems and how retrieval can be combine
 
 **Topics include:**
 
-* RAG fundamentals
-* Information retrieval techniques
-* Retrieval + generation pipelines
+- RAG fundamentals
+- Information retrieval techniques
+- Retrieval + generation pipelines
 
 ---
 
@@ -158,8 +177,9 @@ Technologies and libraries are added as they are actively used throughout the co
 
 **Current Focus:**
 
-* Python 3.x
-* Object-Oriented Programming (OOP)
+- Python 3.x
+- Object-Oriented Programming (OOP)
+- NumPy
 
 *(Upcoming: Computer Vision, YOLO, NLP, Large Language Models, Generative AI, RAG)*
 
@@ -186,7 +206,3 @@ This repository serves as a record of my hands-on work and learning throughout t
 ---
 
 > 📌 **Note:** This repository is primarily intended for learning, experimentation, and documenting personal progress throughout the training program.
-
-```
-
-```
